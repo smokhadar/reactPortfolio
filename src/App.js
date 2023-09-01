@@ -22,7 +22,6 @@ function App() {
     <Router>
       <div style={styles}>
         <Header />
-        {/* put nav in header */}
           <Routes>
             <Route
               path="/"
