@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/reactPortfolio/static/css/main.e405a71f.css",
-    "main.js": "/reactPortfolio/static/js/main.07ed51ed.js",
-    "static/media/samira.new.png": "/reactPortfolio/static/media/samira.new.e15e24c3feba441b872e.png",
-    "static/media/PinPoint-Immigration-Flows-web.png": "/reactPortfolio/static/media/PinPoint-Immigration-Flows-web.aa4c8dac52a870a5439b.png",
-    "static/media/azbw.png": "/reactPortfolio/static/media/azbw.f187aab9379260a70720.png",
-    "static/media/Analytics-1024x622.jpeg": "/reactPortfolio/static/media/Analytics-1024x622.3818ceb3f8f932cdfaf7.jpeg",
-    "static/media/location.png": "/reactPortfolio/static/media/location.2d8409a6033025cdb4a0.png",
-    "static/media/stack.png": "/reactPortfolio/static/media/stack.58c979b005b753d8610d.png",
-    "static/media/mongoose.png": "/reactPortfolio/static/media/mongoose.fdab11b85431eeb9c7fb.png",
-    "static/media/github.png": "/reactPortfolio/static/media/github.0c1c229f100187f70c3f.png",
-    "static/media/gmail.png": "/reactPortfolio/static/media/gmail.8fc21969c09d93565c9e.png",
-    "index.html": "/reactPortfolio/index.html",
-    "main.e405a71f.css.map": "/reactPortfolio/static/css/main.e405a71f.css.map",
-    "main.07ed51ed.js.map": "/reactPortfolio/static/js/main.07ed51ed.js.map"
+    "main.css": "/static/css/main.e405a71f.css",
+    "main.js": "/static/js/main.05ef1155.js",
+    "static/media/samira.new.png": "/static/media/samira.new.e15e24c3feba441b872e.png",
+    "static/media/PinPoint-Immigration-Flows-web.png": "/static/media/PinPoint-Immigration-Flows-web.aa4c8dac52a870a5439b.png",
+    "static/media/azbw.png": "/static/media/azbw.f187aab9379260a70720.png",
+    "static/media/Analytics-1024x622.jpeg": "/static/media/Analytics-1024x622.3818ceb3f8f932cdfaf7.jpeg",
+    "static/media/location.png": "/static/media/location.2d8409a6033025cdb4a0.png",
+    "static/media/stack.png": "/static/media/stack.58c979b005b753d8610d.png",
+    "static/media/mongoose.png": "/static/media/mongoose.fdab11b85431eeb9c7fb.png",
+    "static/media/github.png": "/static/media/github.0c1c229f100187f70c3f.png",
+    "static/media/gmail.png": "/static/media/gmail.8fc21969c09d93565c9e.png",
+    "index.html": "/index.html",
+    "main.e405a71f.css.map": "/static/css/main.e405a71f.css.map",
+    "main.05ef1155.js.map": "/static/js/main.05ef1155.js.map"
   },
   "entrypoints": [
     "static/css/main.e405a71f.css",
-    "static/js/main.07ed51ed.js"
+    "static/js/main.05ef1155.js"
   ]
 }
