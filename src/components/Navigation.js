@@ -1,7 +1,13 @@
-import React from 'react';
-import { Link } from 'react-router-dom';
+import React, { useEffect, useState} from 'react';
+import { Link, useLocation } from 'react-router-dom';
+import '../assets/css/navigation.css';
 
 export default function Navigation({ currentPage }) {
+    const location = useLocation(); // once ready it returns the 'window.location' object
+    const [url, setUrl] = useState(null);
+    useEffect(() => {
+      setUrl(location.pathname);
+    }, [location]);
 
     const styles = {
         navBar: {
@@ -22,8 +28,6 @@ export default function Navigation({ currentPage }) {
             color: 'black'
         },
         p: {
-            // position: 'relative',
-            // left: 0,
             fontSize: 50,
             paddingTop: 20,
             paddingLeft: 20,
@@ -35,14 +39,14 @@ export default function Navigation({ currentPage }) {
     }
 
     return (
-        <ul className="navbar nav-tabs" style={styles.navBar}>
+        <ul className="navbar nav-pills" style={styles.navBar}>
             <Link to="/reactPortfolio" style={styles.link}>
                 <p style={styles.p}>Samira Khadar</p>
             </Link>
             <li className="nav-item" style={styles.navItem}>
                 <Link to="/about" style={styles.link}>
                  <a 
-                  className={currentPage === 'About' ? 'nav-link active' : 'nav-link'}
+                  className={url === '/about' ? 'nav-link active' : 'nav-link'}
                   >
                   About
                   </a>
@@ -51,7 +55,7 @@ export default function Navigation({ currentPage }) {
             <li className="nav-item" style={styles.navItem}>
                 <Link to="/portfolio" style={styles.link}>
                     <a
-                    className={currentPage === 'Portfolio' ? 'nav-link-active' : 'nav-link'}
+                    className={url === '/portfolio' ? 'nav-link active' : 'nav-link'}
                     >
                     Portfolio
                     </a>
@@ -60,7 +64,7 @@ export default function Navigation({ currentPage }) {
             <li className="nav-item" style={styles.navItem}>
                 <Link to="/resume" style={styles.link}>
                     <a
-                    className={currentPage === 'Resume' ? 'nav-link-active' : 'nav-link'}
+                    className={url === '/resume' ? 'nav-link active' : 'nav-link'}
                     >
                     Resume
                     </a>
@@ -69,7 +73,7 @@ export default function Navigation({ currentPage }) {
             <li className="nav-item" style={styles.navItem}>
                 <Link to="/contact" style={styles.link}>
                     <a
-                    className={currentPage === 'Contact' ? 'nav-link-active' : 'nav-link'}
+                    className={url === '/contact' ? 'nav-link active' : 'nav-link'}
                     >
                     Contact
                     </a>

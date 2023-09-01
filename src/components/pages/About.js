@@ -4,14 +4,9 @@ import '../../assets/css/about.css'
 
 export default function About() {
     const styles = {
-        about: {
-            // marginRight: 500,
-            // fontSize: 18
-        },
         container: {
             width: '400px',
             paddingTop: 20,
-            // paddingLeft: 100
         },
        img: {
         borderRadius: 900,
