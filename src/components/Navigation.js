@@ -5,7 +5,6 @@ export default function Navigation({ currentPage }) {
 
     const styles = {
         navBar: {
-            // backgroundImage: 'linear-gradient(#508a61, #cbdaae)',
             background: 'white',
             display: 'flex',
             justifyContent: 'flex-start',
