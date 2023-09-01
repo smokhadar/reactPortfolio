@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/reactPortfolio/static/css/main.762188fe.css",
-    "main.js": "/reactPortfolio/static/js/main.4ac18f1d.js",
+    "main.js": "/reactPortfolio/static/js/main.b4364a25.js",
     "static/media/samira.new.png": "/reactPortfolio/static/media/samira.new.e15e24c3feba441b872e.png",
     "static/media/PinPoint-Immigration-Flows-web.png": "/reactPortfolio/static/media/PinPoint-Immigration-Flows-web.aa4c8dac52a870a5439b.png",
     "static/media/azbw.png": "/reactPortfolio/static/media/azbw.f187aab9379260a70720.png",
@@ -13,10 +13,10 @@
     "static/media/gmail.png": "/reactPortfolio/static/media/gmail.8fc21969c09d93565c9e.png",
     "index.html": "/reactPortfolio/index.html",
     "main.762188fe.css.map": "/reactPortfolio/static/css/main.762188fe.css.map",
-    "main.4ac18f1d.js.map": "/reactPortfolio/static/js/main.4ac18f1d.js.map"
+    "main.b4364a25.js.map": "/reactPortfolio/static/js/main.b4364a25.js.map"
   },
   "entrypoints": [
     "static/css/main.762188fe.css",
-    "static/js/main.4ac18f1d.js"
+    "static/js/main.b4364a25.js"
   ]
 }
