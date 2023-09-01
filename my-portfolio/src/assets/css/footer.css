@@ -1,0 +1,25 @@
+.footer {
+    margin: 0px;
+    padding: 0px;
+}
+
+.btn {
+    font-size: 25px !important;
+    margin-top: 20px !important;
+    width: 250px !important;
+    margin-bottom: 10px;
+}
+
+.list {
+    list-style-type: none;
+}
+
+.contactInfo {
+    display: inline-block;
+    padding: 10px;
+}
+
+.icon {
+    max-height: 20px;
+    margin-right: 5px;
+}
