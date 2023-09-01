@@ -36,7 +36,7 @@ export default function Navigation({ currentPage }) {
 
     return (
         <ul className="navbar nav-tabs" style={styles.navBar}>
-            <Link to="/" style={styles.link}>
+            <Link to="/reactPortfolio" style={styles.link}>
                 <p style={styles.p}>Samira Khadar</p>
             </Link>
             <li className="nav-item" style={styles.navItem}>
